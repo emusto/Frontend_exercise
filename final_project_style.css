@@ -1,0 +1,260 @@
+/* Style for the title page */
+h1.bluetitle {
+    font-family: 'Satisfy', cursive;
+    font-size: 48px;
+    padding: 0px;
+    margin:0px;
+    color:rgb(5, 31, 31);
+    
+  }
+  h1.pagetitle { 
+    font-family: 'Aclonica', sans-serif;    
+    font-size: 60px;
+    padding: 3px;
+    align-content: left;
+    color: seashell;
+  }
+ .content{
+    background-image:url("https://images.pexels.com/photos/533923/pexels-photo-533923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1840&w=1840");
+    background-size: 100% 100%;   
+    opacity:0.8;
+    margin-bottom: 4%;
+
+/* Style for the credentials*/
+   
+ } 
+ .credtable{
+    padding: 0px;
+    margin:0px;
+    justify-content: right;
+    
+ }
+ .credentials{
+    height: 100px;
+    width: 100px;
+    padding: 0px;
+    margin:0px;
+    justify-content: center;
+    border-color: silver;
+    border-image-slice: fill;
+    
+ }
+ 
+ .toppage{
+    justify-content: center;
+    align-items: flex-start;
+    padding: 3%;
+ }
+ .topbar{
+    display: flex;
+    padding: 0%;
+ }
+
+ /* Style for the destination search */
+ .proposal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+ }
+ .search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+   
+
+ }
+ .search input[type=text], input[type=date],input[type=number]{
+    float: right;
+    padding: 6px 10px;
+    margin-top: 3px;
+    margin-right: 6px;
+    background-color: rgb(110, 228, 218);
+    color: rgb(46, 36, 36);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+ }
+ 
+ .destination img{
+    margin: 10px;
+    height: 200px;
+    width: 300px;
+}
+.destination img:hover{
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+ul {
+    list-style-type: none;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right:0%;
+    padding: 0px;
+    overflow: hidden;
+    background-color:darkcyan;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgba(10, 51, 51, 1);
+  }
+  #login{
+    float: right;
+  }
+  .empty{
+      padding: 0%;
+      height: 33%;
+      width: 33%;
+    
+  }
+  .desttitle{
+    font-family: 'Aclonica', sans-serif;    
+    font-size: 20px;
+    padding: 0px;
+    color: darkcyan;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #044853d3;
+  }
+  
+  .topnav a,p {
+    float: left;
+    display: block;
+    color: rgb(32, 175, 180);
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Aclonica', sans-serif;    
+    
+
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .topnav .login-container {
+    float: right;
+  }
+  
+ 
+  
+  .topnav input[type=text],.topnav input[type=password] {
+    padding: 6px 10px;;
+    margin-top: 4px;
+    font-size: 17px;
+    border: none;
+    width:120px;
+  }
+  
+  .topnav .login-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 4px;
+    margin-right: 16px;
+    background-color: rgb(4, 33, 94);
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .login-container button:hover {
+    background-color: rgb(37, 91, 161);
+  }
+
+  .bottomnav {
+    float: right;
+    margin-right: 28px;
+    font-size: 17px;
+    border: none;
+    color: lightblue;
+  }
+  .bottomnav a{
+   
+    color: lightcoral;
+  }
+  
+  .label{
+    display: block;
+    color: rgb(6, 29, 43);
+    float: center;
+      padding: 4px 5px;
+      margin-top: 3px;
+      margin-right: 6px;
+    
+      font-size: 23px;
+      border: none;
+      cursor: pointer;
+}
+.search  button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 4px;
+  margin-right: 6px;
+  background-color: rgb(4, 33, 94);
+  color: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.search  button:hover {
+  background-color: rgb(37, 91, 161);
+}
+.contacts{
+    align-content: center;
+    
+}
+
+.h3{
+    font-family: 'Satisfy', cursive;
+    font-size: 28px;
+    padding: 0px;
+    margin:0px;
+    color:rgb(5, 31, 31);
+    
+}
+  @media screen and (max-width: 600px) {
+    .topnav .login-container {
+      float: none;
+    }
+    .topnav a, .topnav input[type=text],.topnav input[type=password], .topnav .login-container button {
+        float: right;
+        padding: 6px 10px;
+        margin-top: 3px;
+        margin-right: 16px;
+        background-color: rgb(4, 33, 94);
+        color: white;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+    }
+    .topnav input[type=text] {
+      border: 1px solid darkcyan;  
+    }
+  }
+ 
